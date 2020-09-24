@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:710b7d1a675da242f93673ce29a77ff0:2ebfec68f7ac2d5de011592467883650:d4d3ea3a13b513dc28e0313cad79cd43$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="sprite.png" width="560" height="968">
+    <sprite n="1" x="210" y="84" w="207" h="372" pX="0.478261" pY="0.978495">
+        <vertices>207 45 207 146 143 372 60 372 28 187 0 141 0 44 31 0 162 0</vertices>
+        <verticesUV>417 129 417 230 353 456 270 456 238 271 210 225 210 128 241 84 372 84</verticesUV>
+        <triangles>6 7 8 5 6 8 1 5 8 1 4 5 2 3 4 1 2 4 0 1 8</triangles>
+    </sprite>
+    <sprite n="2" x="0" y="84" w="207" h="372" pX="0.545894" pY="0.975806">
+        <vertices>207 144 161 246 150 372 67 372 49 268 0 145 0 46 48 0 207 0</vertices>
+        <verticesUV>207 228 161 330 150 456 67 456 49 352 0 229 0 130 48 84 207 84</verticesUV>
+        <triangles>0 7 8 5 6 7 0 5 7 1 5 0 4 1 2 4 2 3 1 4 5</triangles>
+    </sprite>
+    <sprite n="3" x="0" y="0" w="560" h="80" pX="0.476786" pY="0.9">
+        <vertices>560 44 264 80 0 80 0 21 52 0 560 0</vertices>
+        <verticesUV>560 44 264 80 0 80 0 21 52 0 560 0</verticesUV>
+        <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+    </sprite>
+    <sprite n="4" x="0" y="924" w="310" h="44" pX="0.493548" pY="0.795455">
+        <vertices>310 44 0 44 0 0 310 0</vertices>
+        <verticesUV>310 968 0 968 0 924 310 924</verticesUV>
+        <triangles>1 2 3 0 1 3</triangles>
+    </sprite>
+    <sprite n="5" x="420" y="63" w="126" h="127" pX="0.515873" pY="0.874016">
+        <vertices>126 127 0 127 0 0 126 0</vertices>
+        <verticesUV>546 190 420 190 420 63 546 63</verticesUV>
+        <triangles>1 2 3 0 1 3</triangles>
+    </sprite>
+    <sprite n="7" x="0" y="770" w="382" h="148" pX="0.552356" pY="0.817568">
+        <vertices>382 148 69 148 0 106 0 0 382 0</vertices>
+        <verticesUV>382 918 69 918 0 876 0 770 382 770</verticesUV>
+        <triangles>1 3 4 1 2 3 0 1 4</triangles>
+    </sprite>
+    <sprite n="8" x="0" y="616" w="382" h="148" pX="0.554974" pY="0.824324">
+        <vertices>382 83 382 148 64 148 0 106 0 4 40 4 110 21 182 0 299 0</vertices>
+        <verticesUV>382 699 382 764 64 764 0 722 0 620 40 620 110 637 182 616 299 616</verticesUV>
+        <triangles>1 7 8 3 5 6 3 4 5 2 6 7 2 3 6 1 2 7 0 1 8</triangles>
+    </sprite>
+    <sprite n="9" x="0" y="462" w="382" h="148" pX="0.560209" pY="0.851351">
+        <vertices>382 148 106 148 0 114 0 0 382 0</vertices>
+        <verticesUV>382 610 106 610 0 576 0 462 382 462</verticesUV>
+        <triangles>1 3 4 1 2 3 0 1 4</triangles>
+    </sprite>
+</TextureAtlas>
